@@ -1,0 +1,107 @@
+.main {
+  padding: 10px;
+  height: 100vh;
+}
+.layout {
+  display: flex;
+}
+.sidebar {
+  min-height: 100%;
+  width: 300px;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  box-shadow: 0 0 2px gray;
+  margin-right: 20px;
+  color: black;
+}
+.content {
+  height: 100%;
+  width: 100%;
+}
+.header {
+  height: 10vh;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px gray;
+  background-color: white;
+}
+.body {
+  height: 85vh;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px gray;
+  background-color: white;
+}
+.logo h6 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+.menu-item {
+  margin-top: 20px;
+}
+.menu-item i {
+  padding: 10px;
+  color: black;
+  font-size: 1rem;
+}
+.menu-item a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  font-size: 1rem;
+}
+
+.menu-item:hover,
+.menu-item.active {
+  background-color: white;
+}
+
+.header-content {
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 50px;
+}
+.header-content i {
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+.header-content a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.form-button {
+  width: 250px !important;
+  margin-top: 30px !important;
+}
+
+.userFullName {
+  margin-left: 15px;
+}
+
+.appoinment {
+  border: none;
+}
+.doctorList {
+  display: flex;
+}
+
+.username {
+  font-size: large;
+  text-align: center;
+  font-weight: 500;
+}
+
+.imgdiv {
+  /* border: 1px solid gray; */
+}
+
+.userimg {
+  width: max-content;
+  margin: auto;
+}
